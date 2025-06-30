@@ -2423,7 +2423,7 @@ var server = net.createServer(function (socket) {
             }
     });
 });
-server.listen(2222, 'СЮДА ИП ВДС НЕ ТРОГАЕМ ПОРТ');
+server.listen(2222, 'СЮДА ИП ВДС (НЕ ТРОГАЕМ ПОРТ)');
 async function ConnectMongo() {
     await mongodb.connect('mongodb://ССЫЛКУ НА МОНГО/admin');
 }
